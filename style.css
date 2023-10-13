@@ -831,6 +831,10 @@ form .far
     font-size: 18px;
     margin-right: 10px;
 }
+form i
+{
+    
+}
 form input
 {
     width: 100%;
@@ -838,6 +842,7 @@ form input
     color: #ccc;
     border: 0;
     outline: none;
+    margin-top: 50px;
 }
 form button
 {
@@ -845,6 +850,7 @@ form button
     border: 0;
     outline: none;
     cursor: pointer;
+    margin-top: 50px;
 }
 form button .fas
 {
@@ -864,6 +870,7 @@ form button .fas
     background: #fff;
     margin-right: 15px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 .underline
 {
@@ -895,4 +902,8 @@ form button .fas
     100%{
         left: 100%;
     }
+}
+.col:nth-child(4)
+{
+    padding: 4px;
 }

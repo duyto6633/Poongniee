@@ -831,10 +831,7 @@ form .far
     font-size: 18px;
     margin-right: 10px;
 }
-form i
-{
-    
-}
+
 form input
 {
     width: 100%;
@@ -906,4 +903,126 @@ form button .fas
 .col:nth-child(4)
 {
     padding: 4px;
+}
+/*----------------------Product---------------------------*/
+.product{
+    padding:  30px 0;
+    
+}
+.product-top
+{
+    margin-bottom: 30px;
+
+}
+.product-top ul li
+{
+    font-family: var(--main-text-font);
+    margin: 0 12px;
+    font-size:  12px;
+    line-height: 3px;
+}
+.product-content-left
+{
+    width: 50%;
+   
+}
+
+.product-content-left-big-img
+{
+    width: 80%;
+    padding-right: 20px;
+}
+.product-content-left-big-img img
+{
+    width: 100%;
+
+}
+.product-content-left-small-img
+{
+    width: 20%;
+}
+.product-content-left-small-img img
+{
+    width: 100%;
+    
+}
+.product-content-right
+{
+    width: 50%;
+    padding-left: 20px;
+}
+.product-content-right-buy button
+{
+    height: 50px;
+    padding: 0 12px;
+    cursor: pointer;
+    background: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.3 ease;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+}
+.product-content-right-buy
+{
+    padding-top: 10px;
+   
+}
+.product-content-right-text
+{
+    padding-top: 10px;
+   line-height: 40px;
+   font-size: 20px;
+}
+.product-content-right-text-gif
+{
+    border-top: 1px solid rgb(224, 223, 223);
+    line-height: 30px;
+    
+}
+.product-content-right-text-gif li
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.product-content-right-text-khuyenmai p
+{
+background-color: rgb(199, 188, 188);
+font-size: 20px;
+ width: 90%;
+ height: 40px;
+ text-align: center;
+ justify-content: center;
+}
+.product-content-right-text-khuyenmai
+{
+    border-top: 1px solid rgb(224, 223, 223);
+    line-height: 30px;
+    padding-top: 17px;
+      
+}
+.product-content-right-text-khuyenmai li
+{
+    border: black;
+    
+}
+/*-------------------------------------*/
+#tblGenera {
+    background-color:#ffffff;
+    border-collapse:collapse;
+    border-spacing:0px;
+    border:1px solid #eeeeee;
+    box-sizing:border-box;
+    color:#333333;
+    font-family:Roboto,sans-serif;
+    font-size:13px
+    ;line-height:20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+    min-width:500px;
+    width:100%;
 }

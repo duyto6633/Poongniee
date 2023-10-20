@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .khungsanpham
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        /* .product-gallery-one-content-product-item
+        {
+            width: 20%;
+            padding: 50px 12px 12px;
+            border: 1px solid rgb(195, 195, 195);
+            cursor: pointer;
+        } */
+        .sanpham
+        {
+            width: 200px;
+            height: 300px;
+            padding: 15px;
+            
+            border: 1px solid #ddd;
+             
+        }
+        
+        .sanpham img
+        {
+            width: 100%;
+        }
+        .sanpham:hover
+        {
+            box-shadow: 3px 3px 3px  #ddd;
+        }
+        .mota_sanpham{            
+            list-style-type: none;
+            text-align: center;
+        }
+        .mota_sanpham b:hover{
+            color: red;
+            transition: color 0.3s;
+        }
+        .tensp{
+            width: 200px;
+            height: 70px;
+            border: 1px solid transparent;
+            background-color: rgb(255, 255, 255);
+            
+        }
+        .container h1{
+            display: flex;
+
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #4c534d; 
+            color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 5px;
+            transition: background-color 0.3s ease; 
+        }
+
+        .button:hover {
+            background-color: #f69c4e; 
+        }
+        .tab{
+            text-align: center;
+            background-color: #b4733b;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tab-name{
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <ul class="tab">
+            <a class="tab-name"> danh sách sp</a>
+            <a href="#" class="button popular">Phổ biến</a>
+            <a href="#" class="button best-seller">Bán chạy</a>
+            <a href="#" class="button new">Mới nhất</a>
+        </ul>
+        <div class=""></div>
+    </div>
+    
+    <div class="khungsanpham">
+        <div class="sanpham">
+            <img src="/img/1.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b>Laptop Lenovo 300e Chromebook Thế hệ thứ 2 (11,6 inch) | Hàng trưng bày</b></li>
+                           <li><b style="color: red;">2,090,000₫</b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/2.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Fujitsu Lifebook E5410 5E14A1 </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/3.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Fujitsu Lifebook E5410 | i3-10110U | 4GB | 256GB | 14 inch HD | </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/4.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Acer Aspire 5 A514 54 5127 (NX.A28SV.007) </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/5.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Lenovo IdeaPad 5 14ALC05 82LM004DVN R7-5700U | 8GB | 512GB   </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/6.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop GIGABYTE G5 MF F2VN333SH </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/7.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming MSI GF63 Thin 11UC - 1228VN i7-11800H | 8GB Ram | 512GB  </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/8.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming Gigabyte A5 K1 AVN1030SB R5 5600H | 8GB | 512GB  </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/9.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming Gigabyte A5 K1 AVN1030SB R5 5600H | 8GB | 512GB  </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/10.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop HP 240 G8 617L4PA i5-1135G7 | 8GB | 256GB | Intel Iris XE  </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/11.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop ASUS TUF Gaming F15 FX506HE HN377W </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/12.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop MSI GF63 Thin 12UCX 841VN </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/13.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop ASUS Vivobook X1504ZA NJ582W </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/14.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop MSI Modern 14 C11M 011VN </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/15.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Acer Aspire 5 A514 55 5954 (NX.K5BSV.001) </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/16.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop HP 240 G8 617L8PA i7-1165G7 | 8GB | 512GB | Intel Iris Xe  </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/17.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Lenovo IdeaPad 5 14ITL05 82FE00LLVN i5-1135G7 | 8GB | 512GB   </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/18.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Acer Swift 3 SF313 53 518Y (NX.A4JSV.003) </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/19.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming MSI GF63 12VE 460VN </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/20.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop HP 240 G10 - 8U7D8PA </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/21.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Asus Vivobook 15 OLED A1505VA L1114W i5-13500H | 16GB   </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/22.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Intel NUC M15 BBC510EAUXBC1 i5-1135G7 | 16GB DDR4    </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/23.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop MSI Modern 15 B12M 628VN </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/24.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Asus Vivobook Go 14 E1404FA NK177W </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/25.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Dell Vostro 15 3520 5M2TT2 i5-1235U | 8GB | 512GB   </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/26.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Acer Aspire 3 A315 59 31BT </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/27.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> LLaptop Asus TUF Gaming F15 FX506HF HN014W </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/28.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming MSI Katana 15 B13VEK 252VN </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/29.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b>Laptop Lenovo IdeaPad 5 15ITL05 82FG016EVN i5-1135G7 | 8GB </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/30.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b>Laptop HP 240 G10 - 8F139PA</b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/31.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop HP 240 G10 - 8F133PA </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/32.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming MSI Cyborg 15 A12VE 412VN </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/33.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop MSI Modern 14 C13M 607VN | i7-1355U | 16GB | 512GB SSD  </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/34.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Gaming Acer Nitro 5 AN515 57 54MV (NH.QENSV.003) </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+        <div class="sanpham">
+            <img src="/img/35.webp" alt="">
+                        <div class="mota_sanpham">
+                           <li class="tensp"><b> Laptop Lenovo Yoga Slim 7 14ITL05 82A3004FVN i7-1165G7 EVO   </b></li>
+                           <li><b style="color: red;"> 9,990,000₫ </b><sup style="color: red;">₫</sup></li>
+                        </div>      
+        </div>
+    </div>
+    
+</body>
+</html>
